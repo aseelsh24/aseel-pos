@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>نقطة البيع - Aseel POS</title>
+  <link href="css/style.css" rel="stylesheet">
+  <script type="module" src="js/app.js" defer></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <div class="max-w-md mx-auto mt-10 p-4 bg-white shadow rounded">
+    <h2 class="text-2xl font-bold mb-4 text-center">تسجيل الدخول</h2>
+    <form id="loginForm" class="space-y-4">
+      <input type="email" id="email" placeholder="البريد الإلكتروني" class="w-full border p-2 rounded" required>
+      <input type="password" id="password" placeholder="كلمة المرور" class="w-full border p-2 rounded" required>
+      <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">دخول</button>
+    </form>
+    <div id="message" class="text-red-500 mt-2 text-center"></div>
+  </div>
+</body>
+</html>
